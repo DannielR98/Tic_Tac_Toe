@@ -78,7 +78,7 @@ void switcherino() {
         break;
 
     default:
-        cout << "What de haaayl you think u doing, choose a valid number" << endl;
+        cout << "Choose a valid number" << endl;
         switcherino();
     }
 
@@ -113,7 +113,7 @@ void switcherino_blockerinoX() {
     }
     else
     {
-        cout << "What de haaayl you think u doing, u stoopid, choose valid number" << endl;
+        cout << "Choose valid number" << endl;
         switcherino_blockerinoX();
     }
 
@@ -154,7 +154,7 @@ bool is_game_over() {
 
 int main()
 {
-    cout << "Prepare for ze best game in history" << endl;
+    cout << "Prepare for the best game in history" << endl;
 
    
 
@@ -170,16 +170,16 @@ int main()
 
     if (turn == 'X' && draw == false) {
         cout << "Congrats! " << endl;
-        cout << "Emotional damage inflicted on player O" << endl;
+        cout << "O lost" << endl;
     }
     else if (turn == 'O' && draw == false)
     {
         cout << "Congrats! " << endl;
-        cout << "Emotional damage inflicted on player X" << endl;
+        cout << "X lost" << endl;
     }
     else
     {
-        cout << "Gamerino Drawerino" << endl;
+        cout << "Game is a draw" << endl;
     }
 
     displayerino_boarderino();
